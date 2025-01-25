@@ -7,7 +7,7 @@ function Dashboard() {
   useEffect(() => {
     // Configuração inicial do gráfico
     setChartOptions({
-      title: { text: "Meu Primeiro Gráfico" },
+      title: { text: "Teste" },
       series: [{ data: [10, 20, 30, 40, 50] }],
     });
   }, []);
